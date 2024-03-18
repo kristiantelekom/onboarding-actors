@@ -8,6 +8,7 @@ public class ActorsDTO {
 
     private String fullName;
 
+    private String href;
     private String gender;
 
     private String jobTitle;
@@ -126,5 +127,13 @@ public class ActorsDTO {
 
     public void setActorsImageName(String actorsImageName) {
         this.actorsImageName = actorsImageName;
+    }
+
+    public String getHref() {
+        return href;
+    }
+
+    public void setHref(String href) {
+        this.href = href;
     }
 }
